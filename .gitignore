@@ -1,0 +1,14 @@
+# Ignore the virtual environment folder
+venv/
+env/
+.env
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
+
+# Ignore the actual data (Recruiters don't need the 50MB CSV file)
+data/
